@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1201" height="120" viewBox="0 0 1201 120">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#D8D8D8" d="M0 0h1201v120H0z"/>
+        <text fill="#FFF" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="32" font-weight="bold">
+            <tspan x="28" y="51">HOW TO JOIN </tspan> <tspan x="28" y="91">FLASH SALE</tspan>
+        </text>
+        <text fill="#FFF" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="32" font-weight="bold">
+            <tspan x="349" y="67">Login</tspan>
+        </text>
+        <text fill="#FFF" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="32" font-weight="bold">
+            <tspan x="518" y="67">Wait &amp; Queue</tspan>
+        </text>
+        <text fill="#FFF" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="32" font-weight="bold">
+            <tspan x="791" y="67">Select and buy</tspan>
+        </text>
+        <text fill="#FFF" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="32" font-weight="bold">
+            <tspan x="1081" y="67">Pay</tspan>
+        </text>
+    </g>
+</svg>

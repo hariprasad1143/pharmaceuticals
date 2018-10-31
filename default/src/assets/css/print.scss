@@ -1,0 +1,11 @@
+@media all {
+  body {
+    color: purple;
+  }
+}
+
+@media print {
+  body {
+    color: yellow;
+  }
+}

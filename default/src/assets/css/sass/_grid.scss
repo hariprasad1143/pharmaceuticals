@@ -1,0 +1,63 @@
+$columns: 16;
+$break-medium: 63.750em;
+$break-large: 80.000em;
+.row {
+    margin: 0 auto 1em;
+    max-width: 92.308em;
+    width: 100%; 
+}
+.row:before, .row:after {
+    content: " ";
+    display: table; 
+}
+.row:after {clear: both; }
+.row .row {
+    margin: 0 0em;
+    max-width: none;
+    width: auto; 
+}
+.row .row:before, .row .row:after {
+    content: " ";
+    display: table; 
+}
+.row .row:after {clear: both; }
+.column, .columns {
+    padding: 0 0em;
+    width: 100%;
+    float: left; 
+}
+.column + .column:last-child,
+.columns + .column:last-child, .column +
+.columns:last-child,
+.columns +
+.columns:last-child {
+    float: right; 
+}
+.column + .column.end,
+.columns + .column.end, .column +
+.columns.end,
+.columns +
+.columns.end {
+    float: left; 
+}
+@media only screen and (max-width:$break-medium) {
+    @for $i from 1 through $columns{
+        .small-#{$i}{
+            width: ((100/$columns) * $i) *1%;
+        }
+    }
+}
+@media only screen and (min-width: $break-medium) {
+    @for $i from 1 through $columns{
+        .medium-#{$i}{
+            width: ((100/$columns) * $i) *1%;
+        }
+    }
+}
+@media only screen and (min-width: $break-large) {
+    @for $i from 1 through $columns{
+        .large-#{$i}{
+            width: ((100/$columns) * $i) *1%;
+        }
+    }
+}

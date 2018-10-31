@@ -1,0 +1,454 @@
+{
+  "ERRORS": {
+    "COMMON": {
+      "NotBlank": "{fieldName} can not be blank nor empty",
+      "Email": "{fieldName} is not a valid email address",
+      "InvalidFormat": "{fieldName} is not in valid format",
+      "Unspecified": "An error occurred on our system. Please try again.",
+      "Empty": "Sorry, the product you want to buy is out of stock.",
+      "Unbuyable": "Sorry, the product can't be purchased at this time",
+      "OrderLimitExceeded": "The data you input has already been used. Please fill out the form with other data.",
+      "PriceChanged": "There's a price change",
+      "InvalidTenor": "Installment not found",
+      "PaymentNotFound": "Payment method not found",
+      "PickUpPointStoreNotFound": "Toko pengambilan barang tidak ditemukan",
+      "CaptchaInvalid": "Your captcha was invalid. Please check again.",
+      "InvalidBackdoorCode": "The code you entered is incorrect, please try again!",
+      "InvalidAccessToken": "Please check again and use a valid code",
+      "TokenAlreadyUsed": "VIP code can only be used once. Please contact Customer care if the code never used.",
+      "NotEligibleToChangePayment": "Sorry, you couldn't continue this order because an error occured on our system. For more help, please contact our Customer Care in 0804 1 871 871 or email customer.care@blibli.com",
+      "Account": {
+        "Registered": "Account is already registered",
+        "Active": "Account must be active",
+        "NotActive": "Account must be not active",
+        "TemporaryPassword": "Account is registered using temporary password, maybe when register, user using social media account",
+        "Unique": "Account must be unique",
+        "Locked": "Account is locked because of too many failed login",
+        "Unauthorized": "Account is unauthorized",
+        "Expired": "Account is expired",
+        "NotExists": "Account not registered"
+      },
+      "Token": {
+        "Expired": "Token is expired"
+      },
+      "Password": {
+        "MustNotSame": "Old password must not be the same with new password",
+        "Policy": "Password do not comply with password policy"
+      },
+      "Alert": {
+        "ErrorTitle": "Error",
+        "CloseText": "Close",
+        "ConfirmYes": "Yes",
+        "ConfirmNo": "No",
+        "BackToHome": "Back To Home",
+        "PayErrorTitle": "Not eligible to continue pay"
+      },
+      "Busy": "System is busy, please try again or contact our customer service",
+      "NotFound": "Order not found, please try again or contact our customer service",
+      "InvalidData": "Data combination(Handphone, Email, Ktp/Kitas/Kitap) input is not valid, please try again or contact our customer service",
+      "Invalid": "*{fieldName} is invalid, please try again",
+      "AlreadyUsed": "*{fieldName} is already used"
+    },
+    "LOGIN": {
+      "401": "Your username and password do not match"
+    },
+    "CART": {
+      "PENDING_CART_NOT_FOUND": "Pending Cart not found",
+      "OUT_OF_STOCK": "Sorry, the product of your choice is not available. Try again next time, huh!",
+      "UNSPECIFIED": "Unspecified Error",
+      "MEMBER_SERVICE_INTEGRATION_ERROR": "Error while requesting to member service",
+      "STOCK_NOT_LISTED": "No Stock Listed",
+      "STORE_ID_BLANK": "Store Id is blank",
+      "CART_ID_BLANK": "Cart Id is blank",
+      "PRODUCT_SERVICE_DATA_ERROR": "Error while fetching details from product details not found",
+      "INVALID_ARGUMENTS": "Invalid Arguments",
+      "ADDRESS_NOT_FOUND": "Address not found",
+      "CONDITIONAL_CART_ERROR": "You can only use 1x shopping opportunity in Flash Sale. Love the opportunity to the others, huh!",
+      "SYSTEM_ERROR": "Sorry, an error occurred on the system. Please try again later.",
+      "SYSTEM_PARAMETER_NOT_FOUND": "System parameter data not found",
+      "PRODUCT_DETAILS_NOT_FOUND": "Product details not found",
+      "PAYMENT_GATEWAY_ERROR": "Error while fetching details from payment api",
+      "ORDER_NOT_FOUND": "Order not found",
+      "ORDER_ID_BLANK": "Order Id must not be blank",
+      "EMPTY_AVAILABLE_PAYMENT": "Empty available payment",
+      "PAYMENT_DETAILS_NOT_FOUND": "Payment details not found",
+      "INVALID_CART_TOKEN": "Invalid cart token",
+      "CART_NOT_FOUND": "Cart details not found",
+      "PRODUCTS_NOT_FOUND": "Products details not found"
+    },
+    "CHECK_OUT": {
+      "TITLE": {
+        "PAY_NOW_FAILED": "Error while requesting to payment",
+        "FLASH_SALE_EXPIRED": "Come Back Later, Please!"
+      },
+      "DESCRIPTION": {
+        "PAY_NOW_FAILED": "Oh, there's something in the payment system. But don't worry, your order detail is still there. Lets try again.",
+        "FLASH_SALE_EXPIRED": "Flash Sale will come soon. To be on time, please mark in your calendar or alarm!"
+      }
+    }
+  },
+  "header": {
+    "bankPromotion": "Bank Promotion",
+    "specification": "Spesifikasi",
+    "checkOrder": "Check Order",
+    "login": "Login",
+    "back": "Back"
+  },
+  "footer": {
+    "copyright": "Our Customer Service :" ,
+    "contact": "0804 1 871 871 | customer.care@blibli.com",
+    "or": "or",
+    "liveChat": "Chat here"
+  },
+  "app": {
+    "notfound": {
+      "continueShopping": "CONTINUE SHOPPING",
+      "message": "Sorry, the page you were looking for could not be found."
+    },
+    "backdoor": {
+      "allocateCashback": "Xiaomi cashback ready to allocate:",
+      "allocation": "Allocation",
+      "availableStock": "Available Stock",
+      "button": "CONTINUE",
+      "dateTime": "Date Time",
+      "message": "Enter the security code",
+      "pendingPayment": "Pending Payment",
+      "placeholder": "Enter the code here",
+      "preorderResult": "PREORDER RESULT",
+      "remainingStock": "REMAINING STOCK",
+      "remainingGimmick": "REMAINING GIMMICK",
+      "sellOut": "Sell out",
+      "subTotal": "Sub Total",
+      "update": "UPDATE",
+      "time": "Time ",
+      "total": "Total",
+      "grandTotal": "Sales grand total",
+      "promotions": {
+        "additional": "Additional",
+        "allocation": "Allocation",
+        "available": "Available",
+        "bankCashback": "Bank Cashback",
+        "totalAllocation": "Total Allocation",
+        "pendingPayment": "Pending Payment",
+        "sellOut": "Sell out",
+        "used": "Used"
+      },
+      "viewDetails": "VIEW DETAILS"
+    },
+    "home": {
+      "tabs": {
+        "chooseProduct": "Select Product",
+        "specification": "Specification"
+      },
+      "buyNow": "Pay Now",
+      "notifyMe": "NOTIFY ME",
+      "usp": "Get <strong>Cashback Rp 750.000</strong> and enjoy <strong>0% Installment </strong> with this credit card bank as follow*:"
+    },
+    "accessories": {
+      "select": "CHOOSE ITEM",
+      "unstock": "EMPTY STOCK"
+    },
+    "notifyMe": {
+      "info": "Kami akan mengirimkan e-mail pemberitahuan jika produk sudah tersedia",
+      "caption": "Please enter your email address:",
+      "errorCaption": "We are sorry..",
+      "successCaption": "Success",
+      "successMessage": "You will receive a notification when stock is available"
+    },
+    "tnc": {
+      "caption": "Terms and Conditions",
+      "captionHome": "* Available Terms and Conditions",
+      "agree": "I agree with the applicable ",
+      "link": "terms and conditions",
+      "term": "as well as checking and activating the unit when picking up the goods, also physically check the gift that will be sent to your address."
+    },
+    "form": {
+      "validation": {
+        "required": "Please enter your {field}",
+        "invalidFormat": "Your {field} format is invalid",
+        "tooShortOrTooLong": "Your {field} is too short or too long",
+        "captchaInvalid": "Captcha is not valid",
+        "emailFormat": "Your fullname cannot be email format"
+      },
+      "fields": {
+        "name": "Full Name",
+        "phoneNumber": "Mobile Phone Number",
+        "email": "Email Address",
+        "identityNumber": "{field} number",
+        "orderId": "Order Number",
+        "sku": "sku",
+        "accessToken": "VIP code",
+        "promoCode": "Voucher code",
+        "inputAddress": "Fill Adrress Info",
+        "address": "Address",
+        "province": "Province",
+        "city": "City",
+        "district": "District",
+        "subdistrict": "Sub District",
+        "customer": {
+          "phoneNumber": "Mobile Phone Number"
+        },
+        "postalCode": "Postal Code"
+      },
+      "placeholder": {
+        "name": "Enter your full name",
+        "phone": "Example: 87712345678",
+        "email": "Example: john@gmail.com",
+        "identityNumber": "Enter your {field} number",
+        "address": "Please enter your full address, so the order will be shipped on time",
+        "province": "Choose province",
+        "city": "Choose city",
+        "district": "Choose district",
+        "subdistrict": "Choose subdistrict"
+      },
+      "edit": "Edit",
+      "submit": "Submit",
+      "continue": "Continue",
+      "modal": {
+        "dataSummary": "Here's the data you've entered:" ,
+        "confirmation": "Are you sure of the data you've entered?",
+        "notes": "{identityType} data can not be changed after going through this process",
+        "warning": "You have 15 minutes, to completed the order or your order will cancelled automatically"
+      }
+    },
+    "checkOrder": {
+      "title": "Check your order",
+      "subtitle": "Complete the form on the side to see the order status, the location of your order, and the details of your order.",
+      "phoneNumber": "Mobile Number",
+      "phoneNumberPlaceholder": "Example : 877884536",
+      "idNumber": "No KTP / KITAS / KITAP",
+      "idNumberPlaceholder": "Insert No. KTP/KITAS/KITAP",
+      "orderId": "Order no",
+      "orderIdPlaceholder": "Insert order no",
+      "email": "Email address",
+      "emailPlaceholder": "Example: john@gmail.com",
+      "submit": "SUBMIT"
+    },
+    "order": {
+      "history": {
+        "body": {
+          "accountNumber": "Account Number",
+          "bankCode": "Bank Code",
+          "changePayment": "Change Payment",
+          "companyCode": "Company Code",
+          "countDownOrderPayment": "Complete your payment in",
+          "expiryOrderPayment": "Expiry order payment",
+          "hour": "hour",
+          "minute": "minute",
+          "orderId": "Order Id",
+          "paymentCode": "Payment Code",
+          "paymentGuide": "Payment Guide",
+          "phoneNumber": "Phone Number.",
+          "product": "Product",
+          "quantity": "Quantity",
+          "repay": "Repay",
+          "shippingAddress": "Shipping Address",
+          "status": "Status",
+          "totalPayment": "Total Payment",
+          "transactionDate": "Transaction Date",
+          "virtualAccount": "Virtual Account",
+          "waitingPayment": "Waiting for payment"
+        },
+        "description": "Complete payment so your order can be proceed soon",
+        "description_empty_order_1": "Empty pending payment order Flash Sale.",
+        "description_empty_order_2": "Order that has been paid and still in progress can be saw in",
+        "order": "Order",
+        "title": "Waiting for Payment"
+      },
+      "greeting": "Thank you for order xiaomi Redmi 6A",
+      "infoText1": "This is your invoice",
+      "infoText2": "Please print this invoice and bring it during phone pickup",
+      "name": "Customer Name",
+      "email": "Customer Email",
+      "address": "Customer Address",
+      "store": "Store",
+      "storeAddress": "Store Address",
+      "storePhone": "Store Phone",
+      "orderId": "Invoice ID",
+      "pickupStore": "Pick Up Store",
+      "yourInformation": "Your Information",
+      "month": "month",
+      "number": "No",
+      "phone": "Phone",
+      "paymentMethod": "Payment Method",
+      "product": "Product",
+      "quantity": "Qty",
+      "price": "Price",
+      "print": "Print",
+      "currencyRp": "Rp. ",
+      "cashback": "Cashback",
+      "total": "TOTAL",
+      "items": "Items",
+      "tenor": "{num}x months",
+      "fullPayment": "Full Payment",
+      "installment": "INSTALLMENT",
+      "customerCare" : "24/7 BliBli Customer Care",
+      "customerCarePhoneNumber" : "0804 1 871 871",
+      "customerCareEmail" : "customer.care@blibli.com",
+      "order" : "Order",
+      "preOrderGiftText" : "Pre-Order Gift",
+      "youllGetCashback": "Cashback {value} from {bank} will be rewarded to you and will deduct your billing statement at the latest on the 3rd month",
+      "discountSGI": "Discount SGI"
+    },
+    "thankYou": {
+      "thankYou": "Thank You",
+      "successMessage": "Thank you for shopping",
+      "successMessageLong": "Thank you for shopping at Blibli.com, we already receive your payment with {paymentMethod}",
+      "failedMessage": "Sorry, Your payment has not been successful",
+      "orderExpiredTitle": "Your Order Has Canceled Automatically",
+      "orderExpiredMessage": "Your order has been canceled automatically because you have not made a payment until the specified time limit. Please create a new order to continue order.",
+      "errors":{
+        "ORDER_NOT_FOUND": "Order not found"
+      },
+      "paymentError": "System failure, please change your payment method",
+      "expiredPaymentDate": "Your remaining time to complete payment.",
+      "contactCS": "For further information please contact our Customer Care.",
+      "orderNumber": "Order Number",
+      "expireWarn": "Transaction will be processed if payment done using <strong>{paymentMethod}</strong> before date",
+      "date": "date",
+      "time": "time",
+      "gmtPlus7": "WIB",
+      "payment": "Payment",
+      "paymentStepsTitle": "Payment Instruction using",
+      "pickupMethod": "How to pickup product",
+      "seeReceipt": "See Receipt",
+      "changePayment": "Change Other Payment Method",
+      "repayText": "Repay",
+      "confirmationTitle": "Are you sure want to change payment method?",
+      "confirmationMessage": "Change payment method can not be used for Transer using Bank Mandiri",
+      "no": "NO",
+      "sure": "SURE",
+      "errorTitle": "Error Message",
+      "orderNotFound": "Sorry, Your order was not found.",
+      "backToHome": "Back to Home",
+      "customerInfo" : "Customer Info",
+      "pickUpPlace" : "Pick Up Place",
+      "order" : "Order",
+      "buyOther": "Buy other product",
+      "waiting": {
+        "title": "Please wait...",
+        "description": "We are processing your order. This process takes up to 30 minutes."
+      },
+      "orderReceived": "Order Received",
+      "companyCode": "Company Code",
+      "va": "Virtual Account",
+      "paymentCode" : "Payment Code",
+      "copy": "Copy"
+    },
+    "checkout": {
+      "info": "If after You click “Pay Now” button via Android, it will be shown the pop-up option <strong> Open with </strong> “app Blibli.com” or “Browser”, <strong> please choose the “Browser” </strong>",
+      "checkoutStepOne": "Step 1: Fill Shipping Information",
+      "checkoutStepTwo": "Step 2: Choose Payment Method",
+      "shippingAddressNotes": "*This address will be used for your Redmi 6A Shipping.",
+      "pickupStore": {
+        "edit": "Edit",
+        "emptyResult": "We're sorry we did not find the place you were looking for, please type the city name or province",
+        "errors": {
+          "cityEmpty": "*City name must be selected",
+          "provinceEmpty": "*Province name must be selected"
+        },
+        "inputCityPlaceholder": "Enter city name",
+        "inputProvincePlaceholder": "Enter province name",
+        "inputStoreNamePlaceholder": "Enter store name/mall here",
+        "search": "Search",
+        "searchCity": "City*",
+        "searchPickupStore": "Find your pickup store here: ",
+        "searchProvince": "Province*",
+        "searchStoreName": "Know any store name or malls to pickup?"
+      },
+      "payment": {
+        "choosePaymentOption": "Choose Payment Option",
+        "fullPayment": "Full Payment",
+        "option": "Option",
+        "KartuKreditDebit": "Credit Card",
+        "InternetBanking": "Internet Banking",
+        "Transfer": "Bank Transfer",
+        "Indomaret": "Indomaret",
+        "AlfaGroup": "Alfa Group",
+        "PosPay": "Pos Pay",
+        "allCard": "All Visa dan Mastercard",
+        "installment": " Installment",
+        "perMonth":" / month",
+        "klikBcaUserId":"Klik BCA User ID :",
+        "youveGotCashback": "You've got cashback {value} from Bank {bank}",
+        "youllGetCashback": "Cashback {value} from Bank {bank} will be rewarded to you and will deduct your billing statement at the latest on the 3rd month"
+      },
+      "promo": {
+        "title": "BANK PROMO INSTALLMENT ONLY*",
+        "sgi": "Xiaomi Gift Indonesia",
+        "sgiTitle": "Get Rp 250.000 extra discount with voucher",
+        "sgiPlaceholder": "Type SGI code here",
+        "sgiSuccess": "Congratulation! Your SGI code is valid!",
+        "sgiFailed": "*Code is not valid, please try again",
+        "sgiEmpty": "Please input SGI code"
+      },
+      "cart": {
+        "product": "Order Summary",
+        "initialPrice": "Initial Price",
+        "currencyRp": "Rp. ",
+        "sgi": "SGI Discount",
+        "cashback": "Cashback",
+        "total": "Total Order",
+        "payNow": "PAY NOW",
+        "checkoutReminder1" : "*Please check again the information and your order is according with the ",
+        "checkoutReminder2" : " applicable",
+        "shippingPrice": "Shipping Price"
+      }
+    },
+    "repay": {
+      "title": "We are Waiting Your Payment",
+      "message": "Please check your payment detail. You should complete your payment in {orderExpiryDuration}."
+    },
+    "orderExpired": {
+      "title": "Your Order has been Cancelled Automatically",
+      "message": "Your order has been cancelled automatically because you did not complete payment until specified time limit. Please do order again to continue.",
+      "button": "CONTINUE SHOPPING"
+    },
+    "countdown": {
+      "title": "Bigger things",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Second"
+    },
+    "vipAccess": {
+      "title": "A Special Welcome",
+      "message": "as reward for being a loyal customer, you are given access to Xiaomi exclusive products",
+      "placeholder": "Please enter your VIP access token",
+      "warning": "*VIP token can only be used once, please don't close the browser after proceed",
+      "button": "Proceed"
+    },
+    "login": {
+      "placeholder": {
+        "username": "Enter Email",
+        "password": "Password"
+      },
+      "title": "Login to your account",
+      "submit": "Login",
+      "have_no_acc": "Don't have account ?",
+      "register_here": "Register Here",
+      "error": {
+        "wrongEmailFormat": "wrong email format",
+        "passwordNotEmpty": "password can't be empty",
+        "wrongPasswordOrEmail": "wrong email or password",
+        "systemError": "system error",
+        "rateLimiterError": "Wow, there are many who are waiting to enter. Try some more time, huh."
+      },
+      "facebook": "Login with Facebook",
+      "google": "Login with Google"
+    }
+  },
+  "paymentInstruction": {
+    "KlikBCA": "<ol><li>Login in page by using the BCA Click User ID KlikBCA <strong>{bankId}</strong></li><li>Select Payment e-Commerce on the main menu Click BCA</li><li>Select <strong>Market Place</strong> on selection Category</li><li>Select <strong>BLIBLI.COM</strong> in the selection Company Name</li><li>Select your BCA account number, and then click Continue</li><li>Give a checklist on the transactions you want to pay, then click Continue</li></ol>",
+    "ATMBCA": "<ol><li>Select <strong>OTHER TRANSACTION</strong> on the main screen</li><li>Select <strong>PAYMENT</strong></li><li>Select <strong>NEXT SCREEN</strong></li><li>Select<span>&nbsp;</span><strong>OTHERS</strong></li><li>Enter the code BLIBLI.com companies: <strong>710710</strong></li><li>Enter Order Number BLIBLI.COM: <strong>{orderId}</strong> (valid for one transaction)</li><li>Re-check your payment, make sure it is in accordance with your order</li><li>Transaction is completed, you will receive receipt of payment</li></ol>",
+    "VirtualAccountBcaOnline": "<ol><li>Login to M-BCA application, enter your M-BCA PIN</li><li>Select \"m-Transfer\", select \"BCA Virtual Account\"</li><li>Click on \"Input no. Virtual Account\", then input your BCA Virtual Account Number <strong>{accountNumber}</strong></li><li>Click \"OK\" & \"Send\"</li><li>Check the transaction data and then select \"OK\"</li><li>Enter the amount of your transaction, fill \"Berita\" column with your order number <strong>({orderId})</strong>, klik \"OK\", then enter your M-BCA PIN</li><li>Re-check the transaction data, then click \"OK\"</li><li>Your order will be processed, please check your email</li></ol><strong>KlikBCA</strong><ol><li>Log in KlikBCA application, enter user ID & PIN</li><li>Select the \"<strong>Transfer Funds</strong>\", and then select \"<strong>Transfer to BCA Virtual Account</strong>\"</li><li>Enter BCA Virtual Account Number <strong>{accountNumber}</strong> & click \"<strong>Continue</strong>\"</li><li>Enter the nominal transferred, fill the \"<strong>News</strong>\" column with the order number (<strong>{orderId}</strong>) & click \"<strong>Continue</strong>\".</li><li>Make sure the data entered is correct, and Input \"<strong>Response KeyBCA</strong>\", then click \"<strong>Submit</strong>\".</li></ol><strong>ATM BCA</strong><ol><li>Insert your ATM card and input your PIN</li><li>Select \"Other Transaction\" menu</li><li>Select \"Transfer\" menu and select \"BCA Virtual Account\"</li><li>Input your BCA Virtual Account Number <strong>{accountNumber}</strong> and click \"Continue\"</li><li>Make sure the data entered is correct and click Yes</li></ol>",
+    "MandiriBillPayment": "<strong>ATM Mandiri</strong><ol><li>Enter your ATM PIN</li><li>In the main menu, choose <strong>Pembayaran</strong></li><li>Select <strong>Multi Payment</strong> menu</li><li>Input number <strong>{bankId}</strong> in the Kode Perusahaan and then select <strong>Benar</strong> button</li><li>Input payment code <strong>{accountNumber}</strong>, you will get payment detail information</li><li>Re-check <strong>Kode Perusahaan, No. Order</strong>, and <strong>Jumlah Pembayaran</strong></li><li>Choose <strong>Ya</strong></li><li>Your transcation is successfull</li></ol><strong>Mandiri Internet Banking</strong></p><ol><li>Login to your Internet Banking Mandiri</li><li>In the main menu, select <strong>Bayar</strong></li><li>Choose <strong>Multi Payment</strong></li><li>Choose your account in <strong>Dari Rekening</strong>, then choose <strong>Midtrans</strong> in <strong>Penyedia Jasa Layanan</strong></li><li>Input payment code <strong>{accountNumber}</strong>, click Next</li><li>Re-check <strong>Nama Perusahaan, No. Order</strong>, and <strong>Jumlah Pembayaran</strong></li><li>Finish the payment using Mandiri Token</li></ol>",
+    "AtmBersama": "<ol><li>Visit nearest ATM with logo ATMBersama</li><li>Select the <strong>Transfer feature</strong></li><li>Select the Transfer Menu between Bank</li><li>Enter code <strong>987</strong> and destination account number <strong style=\"color: #0095da\">{virtualAccountNumber}</strong></li><li>Enter nominal of transaction</li><li>Confirmation your transaction data</li><li>Click next/ok</li><li>Transaction completed</li></ol>",
+    "VirtualAccountMandiri": "<ol><li>Select the delivery channels (ATM, EDC, Internet Banking, SMS Banking).</li><li>Select the Transfer feature.</li><li>Select the Transfer between Bank.</li><li>Enter Bank Mandiri Code (008) or select Bank Mandiri.</li><li>Enter the nominal of payment and <strong>{accountNumber}</strong> as the destination account number (Account number is unique, different for each customer and is only valid for one transaction).</li><li>Confirm nominal and the destination account number.</li><li>Complete your transfer</li></ol>"
+  },
+  "sessionEnded": {
+    "title": "Shopping Time Ends",
+    "description": "You have passed the checkout deadline given in this session. Relax, you can try again by repeating the shopping process from the start.",
+    "ok": "OK"
+  }
+}

@@ -1,0 +1,58 @@
+.promo {
+  &__list {
+    padding: 0;
+    &-items {
+      width: 24.9%;
+      display: inline-block;
+      vertical-align: top;
+      box-sizing: border-box;
+      list-style: none;
+      font-size: 12px;
+      @media only screen and (max-width: 1148px) { width: 33%; }
+      @media only screen and (max-width: 886px)  { width: 49.25%; }
+      @media only screen and (max-width: 768px)  { width: 33%; }
+      @media only screen and (max-width: 608px)  { width: 49.25%; }
+      @media only screen and (max-width: 375px)  { zoom: 80%; }
+      .box { margin: 5%; }
+      .logo {
+        width: 90px;
+        height: 40px;
+        display: inline-block;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 85px;
+        background-position: left;
+        &.ANZ,&.BCA,&.BNI,&.BRI,&.UOB { background-size: 60px; }
+        &.MAYBANK, &.Maybank{ background-size: 80px; }
+        &.CITIBANK, &.Citibank{ background-size: 35px; }
+        &.BRI  { background-size: 80px; }
+        &.BNI  { background-size: 55px; }
+        &.MEGA, &.Mega { background-size: 45px; }
+        &.PANIN, &.Panin{ background-size: 85px; }
+        &.SCB { background-size: 70px; }
+        &.HSBC { background-size: 75px; }
+        &.BUKOPIN, &.Bukopin { background-size: 90px; }
+      }
+      .table {
+        margin-top: 5px;
+      }
+    }
+    .cicilan {
+      width: 100%;
+      padding: 0 1.0714em;
+      span {
+        text-align: right;
+        font-weight: bold;
+      }
+    }
+    .cashback {
+      padding: 1.0714em;
+      border-top: #f2f2f2 1px solid;
+    }
+  }
+}
+.table { display: table; }
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}

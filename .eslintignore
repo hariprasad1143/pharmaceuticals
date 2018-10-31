@@ -1,0 +1,3 @@
+common/www/**/*.js
+common/src/libs/**
+common/src/trackers/**

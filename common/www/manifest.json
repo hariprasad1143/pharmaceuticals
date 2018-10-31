@@ -1,0 +1,24 @@
+{
+  "short_name": "Toko online blibli.com, sensasi belanja online shop ala mall",
+  "name": "Blibli.com web",
+  "icons": [
+    {
+      "src": "launcher/logo-blibli-no-word-64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "launcher/logo-blibli-no-word.png",
+      "sizes": "80x80",
+      "type": "image/png"
+    },
+    {
+      "src": "launcher/logo-blibli.png",
+      "sizes": "149x52",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}

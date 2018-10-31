@@ -1,0 +1,73 @@
+// BRIGHTNESS
+$white 			: #fff !default;
+$black 			: #000 !default;
+
+//Grey 
+$gray-lightest: #F2F2F2;
+$gray-lighter	: #DDDDDD;
+$gray-light		: #CCCCCC;
+$gray					: #999999;
+$gray-dark		: #666666;
+$gray-darker	: #333333;
+$gray-darkest	: #111111;
+
+// Orange [Secondary Colors]
+$orange				: #F7931E !default;
+$orange-light : #F9A94B;
+$orange-dark	: darken($orange, 5%) !default;
+
+// BLUE [PRIMARY COLORS]
+$blue 				: #0096D9 !default;
+$blue-light 	: #33ABE1;
+$blue-lighter	: #A1E1FF;
+$blue-lightest: #E5F4FB;
+$blue-dark 		: darken($blue, 5%) !default;
+
+// RED [PRIMARY COLORS]
+$red				: #F8011E !default;
+$red-light	: #FFEFF1;
+$red-dark		: darken($red, 5%) !default;
+
+// YELLOW [PRIMARY COLORS]
+$yellow				: #FFD000;
+$yellow-light	: #FFFEE7;
+
+// Green [Secondary Colors]
+$green			: #00B35E !default;
+$green-light: lighten($green, 5%) !default;
+$green-dark : darken($green, 5%) !default;
+
+// lime [tertiary colors]
+$lime				: #89C747 !default;
+$lime-light : #F3F9EC;
+$lime-dark	: darken($lime, 5%) !default;
+
+// magenta [tertiary colors]
+$magenta			: #F50089 !default;
+$magenta-light: lighten($magenta, 5%) !default;
+$magenta-dark	: darken($magenta, 5%) !default;
+
+//category pallete
+$galeri-indonesia	: #B82837;
+$handphone-tablet	: #EF413D;
+$computer-laptop	: #3255A6;
+$camera						: #A6CE39;
+$electronics			: #B64B85;
+$male-fashion			: #0095DA;
+$mother-baby			: #FDB813;
+$female-fashion		: #EC008C;
+$health-beauty		: #7251A1;
+$hobby-sports			: #00B9AD;
+$automotive				: #3483AA;
+$culinary					: #F37021;
+$toys-games				: #0ABAEE;
+$home-living			: #FFED00;
+$ticket-voucher		: #3AA935;
+
+//social media pallete
+$facebook-color     : #4C66A4;
+$googleplus-color   : #DD4B39;
+$pinterest-color    : #CB2027;
+$twitter-color      : #2FC2EF;
+$youtube-color      : #CD201F;
+$instagram-color    : #262626;

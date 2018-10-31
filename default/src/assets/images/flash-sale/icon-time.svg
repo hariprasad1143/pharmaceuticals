@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <g fill="none" fill-rule="evenodd" transform="translate(7 15)">
+        <path fill="#DCE7EB" d="M105.747 71.5c0 4.694-23.672 8.5-52.873 8.5C23.672 80 0 76.194 0 71.5S23.672 63 52.874 63c29.2 0 52.873 3.806 52.873 8.5M98.234 87c0 2.21-5.873 4-13.117 4C77.873 91 72 89.21 72 87s5.873-4 13.117-4c7.244 0 13.117 1.79 13.117 4"/>
+        <rect width="90" height="6" x="8" y="66" fill="#4B5A6B" fill-rule="nonzero" rx="1"/>
+        <rect width="98" height="45" x="4" y="22" fill="#FFF" fill-rule="nonzero" stroke="#4B5A6B" stroke-width="2" rx="4"/>
+        <rect width="90" height="37" x="8" y="26" fill="#1795D2" fill-rule="nonzero" rx="1"/>
+        <rect width="15" height="23" x="58" y="33" fill="#FFF" fill-rule="nonzero" rx="1"/>
+        <rect width="15" height="23" x="33" y="33" fill="#FFF" fill-rule="nonzero" rx="1"/>
+        <g transform="translate(15 31)">
+            <rect width="15" height="23" y="2" fill="#FFF" fill-rule="nonzero" rx="1"/>
+            <text fill="#4B5A6B" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="20" font-weight="500">
+                <tspan x="2.37" y="20">1</tspan>
+            </text>
+        </g>
+        <rect width="15" height="10" fill="#FFF" fill-rule="nonzero" rx="1" transform="translate(76 46)"/>
+        <text fill="#4B5A6B" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="20" font-weight="500">
+            <tspan x="60.37" y="51">0</tspan>
+        </text>
+        <text fill="#4B5A6B" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="20" font-weight="500">
+            <tspan x="35.37" y="51">0</tspan>
+        </text>
+        <rect width="15" height="11" fill="#FFF" fill-rule="nonzero" rx="1" transform="translate(76 33)"/>
+        <path fill="#4B5A6B" d="M87.585 33c-.132 1.507-.5 2.69-1.105 3.55-.773 1.1-1.827 1.65-3.16 1.65-1.333 0-2.387-.553-3.16-1.66-.603-.863-.971-2.043-1.104-3.54h8.529zm-2.193 0a9.732 9.732 0 0 1-.112.91c-.107.607-.253 1.097-.44 1.47s-.41.637-.67.79c-.26.153-.543.23-.85.23-.307 0-.59-.077-.85-.23-.26-.153-.483-.417-.67-.79-.187-.373-.333-.863-.44-1.47a9.732 9.732 0 0 1-.112-.91h4.144z"/>
+        <text fill="#FFF" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="20" font-weight="500">
+            <tspan x="50.25" y="49">:</tspan>
+        </text>
+        <path fill="#4B5A6B" d="M83.32 56v-3.24h-2.34v-1.44c.64-.12 1.19-.263 1.65-.43.46-.167.89-.37 1.29-.61h1.72V56h-2.32z"/>
+        <rect width="16" height="6" x="45" y="17" fill="#4B5A6B" fill-rule="nonzero" rx="2"/>
+        <g fill="#F7921E" fill-rule="nonzero" transform="translate(32)">
+            <rect width="2.889" height="8.571" x="19.556" rx="1.444"/>
+            <rect width="2.889" height="8.571" x="28.224" y="1.604" rx="1.444" transform="rotate(20 29.668 5.89)"/>
+            <rect width="2.889" height="8.571" x="35.444" y="5.469" rx="1.444" transform="rotate(48 36.889 9.755)"/>
+            <rect width="2.889" height="8.571" x="3.667" y="5.469" rx="1.444" transform="rotate(-48 5.111 9.755)"/>
+            <rect width="2.889" height="8.571" x="10.887" y="1.604" rx="1.444" transform="rotate(-20 12.332 5.89)"/>
+        </g>
+    </g>
+</svg>

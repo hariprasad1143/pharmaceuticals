@@ -1,0 +1,25 @@
+sonar.projectKey=com.gdn.pyeongyang-ui:microsite-samsung
+sonar.projectName=com.gdn.pyeongyang-ui:microsite-samsung
+sonar.projectVersion={{APP_VERSION}}
+
+sonar.modules=common,default
+
+common.sonar.sources=src
+default.sonar.sources=src
+
+sonar.sourceEncoding=UTF-8
+
+# Optional
+common.sonar.tests=test
+default.sonar.tests=test
+
+sonar.exclusions=node_modules/**,target/**,build/**
+common.sonar.exclusions=test/**,dist/**,static/**,src/api-mock/**,src/libs/**,src/trackers/**,src/data/**
+default.sonar.exclusions=test/**,dist/**
+
+common.sonar.coverage.exclusions=test/**,build/**,config/**,dist/**,static/**,src/api-mock/**,src/libs/**,src/trackers/**,src/data/**
+default.sonar.coverage.exclusions=test/**,build/**,config/**,dist/**,static/**,src/main.js
+
+# To import the LCOV report
+common.sonar.javascript.lcov.reportPaths=test/unit/coverage/lcov.info
+default.sonar.javascript.lcov.reportPaths=test/unit/coverage/lcov.info

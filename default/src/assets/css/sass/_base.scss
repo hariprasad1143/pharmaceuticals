@@ -1,0 +1,46 @@
+// @import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import "mixins/boxes";
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Regular';
+  src: url('~assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  src: url('~assets/fonts/SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+html {
+  @include box-sizing(border-box);
+  font-size: 62.5%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+body {
+  font-size: 13px;
+  color: #333;
+  font-family: 'Source Sans Pro Regular', sans-serif;
+  height: 100%;
+}
+strong, b{
+  font-weight: bold;
+  font-family: 'Source Sans Pro Bold', sans-serif;
+}
+.clearfix {
+  *zoom: 1;
+  &:before,&:after {display: table;content: ' ';}
+  &:after {clear: both;}
+}

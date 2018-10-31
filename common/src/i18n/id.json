@@ -1,0 +1,464 @@
+{
+  "ERRORS": {
+    "COMMON": {
+      "NotBlank": "{fieldName} harus diisi",
+      "Email": "{fieldName} bukan alamat email yang valid",
+      "InvalidFormat": "Format {fieldName} tidak valid",
+      "Unspecified": "Terjadi kesalahan pada sistem Kami. Silakan mencoba kembali.",
+      "Empty": "Maaf, produk yang ingin Anda beli sudah habis.",
+      "Unbuyable": "Maaf, untuk saat ini produk tidak dapat dibeli",
+      "OrderLimitExceeded": "Data yang Anda masukkan sudah pernah digunakan. Silakan isi formulir dengan data lain.",
+      "PriceChanged": "Terjadi Perubahan Harga",
+      "InvalidTenor": "Cicilan yang diinginkan tidak tersedia",
+      "PaymentNotFound": "Metode pembayaran tidak ditemukan",
+      "PickUpPointStoreNotFound": "Toko pengambilan barang tidak ditemukan",
+      "CaptchaInvalid": "Captcha yang Anda masukkan tidak valid. Silakan cek kembali.",
+      "InvalidBackdoorCode": "Kode yang Anda masukan salah, silakan coba lagi!",
+      "InvalidAccessToken": "Mohon periksa kembali dan masukkan kode yang sesuai",
+      "TokenAlreadyUsed": "Kode VIP Anda hanya dapat digunakan SATU kali. Anda belum pernah menggunakan kode ini? Hubungi Customer Care untuk bantuan.",
+      "NotEligibleToChangePayment": "Maaf, Anda tidak dapat melanjutkan pesanan ini karena terjadi kesalahan pada sistem. Untuk bantuan lebih lanjut hubungi Customer Care di 0804 1 871 871 atau email customer.care@blibli.com",
+      "Account": {
+        "Locked": "Akun terkunci karena terlalu banyak salah login",
+        "Registered": "Akun sudah pernah terdaftar",
+        "Active": "Akun aktif",
+        "NotActive": "Akun tidak aktif",
+        "TemporaryPassword": "Akun terdaftar menggunakan katakunci sementara, mungkin dibuat dengan akun media sosial",
+        "Unique": "Akun harus unik",
+        "Unauthorized": "Akun tidak diizinkan",
+        "Expired": "Akun kadaluarsa",
+        "NotExists": "Akun tidak terdaftar"
+      },
+      "Token": {
+        "Expired": "Token kadaluarsa"
+      },
+      "Password": {
+        "MustNotSame": "Kata kunci yang baru harus berbeda dengan yang lama",
+        "Policy": "Katakunci tidak sesuai dengan ketentuan pola katakunci yang ada"
+      },
+      "Alert": {
+        "ErrorTitle": "Terjadi Kesalahan",
+        "CloseText": "Tutup",
+        "ConfirmYes": "Ya",
+        "ConfirmNo": "Tidak",
+        "BackToHome": "Kembali Ke Beranda",
+        "PayErrorTitle": "Tidak Dapat Melanjutkan Pembayaran"
+      },
+      "Busy": "Sistem sedang sibuk, silakan mencoba kembali atau hubungi customer care kami",
+      "NotFound": "Order tidak ditemukan, silahkan mencoba kembali atau hubungi customer care kami",
+      "InvalidData": "Kombinasi data(Handphone, Email, Ktp/Kitas/Kitap) yang dimasukan tidak sesuai,  silahkan mencoba kembali atau hubungi customer care kami",
+      "Invalid": "*{fieldName} tidak cocok, harap dicoba kembali",
+      "AlreadyUsed": "*{fieldName} sudah pernah digunakan"
+    },
+    "LOGIN": {
+      "401": "Maaf, email atau password yang Anda masukkan salah."
+    },
+    "CART": {
+      "PENDING_CART_NOT_FOUND": "Pending Cart tidak ditemukan",
+      "OUT_OF_STOCK": "Maaf, produk pilihan Anda sudah tidak tersedia. Coba lagi di lain kesempatan, ya!",
+      "UNSPECIFIED": "Kesalahan yang tidak spesifik",
+      "MEMBER_SERVICE_INTEGRATION_ERROR": "Kesalahan saat meminta layanan anggota",
+      "STOCK_NOT_LISTED": "Tidak ada saham yang terdaftar",
+      "STORE_ID_BLANK": "ID Toko kosong",
+      "CART_ID_BLANK": "Id Keranjang kosong",
+      "PRODUCT_SERVICE_DATA_ERROR": "Kesalahan saat mengambil detail dari detail produk tidak ditemukan",
+      "INVALID_ARGUMENTS": "Argumen Tidak Valid",
+      "ADDRESS_NOT_FOUND": "Alamat tidak ditemukan",
+      "CONDITIONAL_CART_ERROR": "Anda hanya dapat menggunakan 1x kesempatan belanja di Flash Sale. Kasih kesempatan ke yang lain, ya!",
+      "SYSTEM_ERROR": "Maaf, terjadi kesalahan pada sistem. Silakan coba beberapa saat lagi.",
+      "SYSTEM_PARAMETER_NOT_FOUND": "Data parameter sistem tidak ditemukan",
+      "PRODUCT_DETAILS_NOT_FOUND": "Detail produk tidak ditemukan",
+      "PAYMENT_GATEWAY_ERROR": "Kesalahan saat mengambil detail dari api pembayaran",
+      "ORDER_NOT_FOUND": "Pesanan tidak ditemukan",
+      "ORDER_ID_BLANK": "ID pesanan tidak boleh kosong",
+      "EMPTY_AVAILABLE_PAYMENT": "Pembayaran tersedia kosong",
+      "PAYMENT_DETAILS_NOT_FOUND": "Detail pembayaran tidak ditemukan",
+      "INVALID_CART_TOKEN": "Token keranjang tidak valid",
+      "CART_NOT_FOUND": "Detail keranjang tidak ditemukan",
+      "PRODUCTS_NOT_FOUND": "Detail produk tidak ditemukan"
+    },
+    "CHECK_OUT": {
+      "TITLE": {
+        "PAY_NOW_FAILED": "Ada Gangguan di Tombol Bayar",
+        "FLASH_SALE_EXPIRED": "Kembali Lagi Nanti, Ya!"
+      },
+      "DESCRIPTION": {
+        "PAY_NOW_FAILED": "Oh, ternyata ada sesuatu di balik tombol pembayaran. Tenang, detail pesanan Anda nggak hilang kok. Coba lagi, yuk.",
+        "FLASH_SALE_EXPIRED": "Flash Sale akan segera hadir. Supaya nggak ketinggalan, tandai di kalender atau pasang alarm Anda!"
+      }
+    }
+  },
+  "header": {
+    "bankPromotion": "Bank Promotion",
+    "specification": "Spesifikasi",
+    "checkOrder": "Check Order",
+    "login": "Masuk",
+    "back": "Kembali"
+  },
+  "footer": {
+    "copyright": "Copyright © 2011-2018",
+    "tnc": "Syarat & Ketentuan",
+    "privacy": "Kebijakan Privasi",
+    "titleContact": "Customer Service Kami",
+    "contact": "0804 1 871 871 | customer.care@blibli.com",
+    "or": "atau",
+    "liveChat": "Chat disini"
+  },
+  "app": {
+    "notfound": {
+      "continueShopping": "LANJUTKAN BELANJA",
+      "message": "Maaf, halaman yang Anda cari tidak dapat ditemukan."
+    },
+    "backdoor": {
+      "allocateCashback": "Xiaomi cashback ready to allocate:",
+      "allocation": "Allocation",
+      "availableStock": "Available Stock",
+      "button": "LANJUTKAN",
+      "dateTime": "Date Time",
+      "message": "Masukan kode keamanan",
+      "pendingPayment": "Pending Payment",
+      "placeholder": "Masukan kode disini",
+      "preorderResult": "PREORDER RESULT",
+      "remainingStock": "REMAINING STOCK",
+      "remainingGimmick": "REMAINING GIMMICK",
+      "sellOut": "Sell out",
+      "subTotal": "Sub Total",
+      "update": "PERBARUI",
+      "time": "Pukul ",
+      "total": "Total",
+      "grandTotal": "Grand total penjualan",
+      "promotions": {
+        "additional": "Additional",
+        "allocation": "Allocation",
+        "available": "Available",
+        "bankCashback": "Bank Cashback",
+        "totalAllocation": "Total Allocation",
+        "pendingPayment": "Pending Payment",
+        "sellOut": "Sell out",
+        "used": "Used"
+      },
+      "viewDetails": "VIEW DETAILS"
+    },
+    "home": {
+      "tabs": {
+        "chooseProduct": "Pilih Produk",
+        "specification": "Spesifikasi"
+      },
+      "buyNow": "Bayar Sekarang",
+      "notifyMe": "BERITAHU SAYA",
+      "usp": "Dapatkan <strong>Cashback Rp 750.000</strong> dan nikmati <strong>Cicilan 0%</strong> dengan kartu kredit bank berikut*:"
+    },
+    "accessories": {
+      "select": "KLAIM HADIAH",
+      "unstock": "STOK HABIS"
+    },
+    "notifyMe": {
+      "caption": "Masukkan Email Anda",
+      "info": "Kami akan mengirimkan e-mail pemberitahuan jika produk sudah tersedia",
+      "errorCaption": "Mohon Maaf..",
+      "successCaption": "Berhasil",
+      "successMessage": "Anda akan diberitahu saat produk ini sudah tersedia"
+    },
+    "tnc": {
+      "caption": "Syarat dan Ketentuan",
+      "captionHome": "* Syarat & Ketentuan berlaku",
+      "agree": "Saya setuju dengan",
+      "link": "syarat dan ketentuan",
+      "term": "yang berlaku, melakukan pengecekan dan aktivasi unit saat pengambilan barang, serta melakukan pengecekan fisik Hadiah yang akan dikirimkan ke Alamat saya."
+    },
+    "form": {
+      "validation": {
+        "required": "Silakan masukan {field} anda",
+        "invalidFormat": "Format {field} anda tidak valid",
+        "tooShortOrTooLong": "Masukan {field} terlalu pendek atau terlalu panjang",
+        "captchaInvalid": "Captcha belum dicentang",
+        "emailFormat": "Format nama yang anda masukkan tidak boleh berupa format email"
+      },
+      "fields": {
+        "name": "Nama Lengkap",
+        "phoneNumber": "No. Handphone",
+        "email": "Alamat Email",
+        "identityNumber": "No {field}",
+        "orderId": "No Order",
+        "sku": "sku",
+        "accessToken": "Kode VIP",
+        "promoCode": "Kode voucher",
+        "inputAddress": "Pengisian Alamat*",
+        "address": "Alamat",
+        "province": "Provinsi",
+        "city": "Kota",
+        "district": "Kecamatan",
+        "subdistrict": "Kelurahan",
+        "customer": {
+          "phoneNumber": "No Handphone"
+        },
+        "postalCode": "Kode Pos"
+      },
+      "placeholder": {
+        "name": "Masukkan nama lengkap Anda",
+        "phone": "Contoh: 87712345678",
+        "email": "Contoh: john@gmail.com",
+        "identityNumber": "Masukkan No {field} Anda",
+        "address": "Masukkan Alamat Anda secara lengkap agar produk dapat dikirimkan dengan tepat",
+        "province": "Pilih Provinsi",
+        "city": "Pilih Kota",
+        "district": "Pilih Kecamatan",
+        "subdistrict": "Pilih Kelurahan"
+      },
+      "edit": "Ubah",
+      "submit": "Kirim",
+      "continue": "Lanjut",
+      "modal": {
+        "dataSummary": "Berikut data yang sudah Anda masukkan:" ,
+        "confirmation": "Apakah Anda yakin dengan data tersebut?",
+        "notes": "Data {identityType} tidak dapat diubah setelah melewati proses ini",
+        "warning": "Waktu Anda 15 menit untuk menyelesaikan order sebelum pesanan dibatalkan secara otomatis"
+      }
+    },
+    "checkOrder": {
+      "title": "Cek Order Anda",
+      "subtitle": "Lengkapi formulir di samping untuk melihat status pesanan, lokasi pengambilan, dan detail order Anda.",
+      "phoneNumber": "No Hp",
+      "phoneNumberPlaceholder": "Contoh : 877884536",
+      "idNumber": "No KTP / KITAS / KITAP",
+      "idNumberPlaceholder": "Masukkan No. KTP/KITAS/KITAP",
+      "orderId": "No Order",
+      "orderIdPlaceholder": "Masukkan No. Order",
+      "email": "Alamat email",
+      "emailPlaceholder": "Contoh: john@gmail.com",
+      "submit": "SUBMIT"
+    },
+    "order": {
+      "history": {
+        "body": {
+          "accountNumber": "No Rekening",
+          "bankCode": "Kode Bank",
+          "changePayment": "Ganti Metode Pembayaran",
+          "companyCode": "Kode Perusahaan",
+          "countDownOrderPayment": "Selesaikan pembayaran dalam",
+          "expiryOrderPayment": "Batas akhir pembayaran",
+          "hour": "jam",
+          "minute": "menit",
+          "orderId": "No. Pesanan",
+          "paymentCode": "Kode Pembayaran",
+          "paymentGuide": "Petunjuk pembayaran",
+          "phoneNumber": "Telp.",
+          "product": "Produk",
+          "quantity": "Jumlah",
+          "repay": "Lanjutkan Pembayaran",
+          "shippingAddress": "Alamat Pengiriman",
+          "status": "Status",
+          "totalPayment": "Total Pembayaran",
+          "transactionDate": "Tanggal Transaksi",
+          "virtualAccount": "Virtual Account",
+          "waitingPayment": "Menunggu Pembayaran"
+        },
+        "description": "Segera selesaikan pembayaran agar pesanan Anda dapat segera diproses",
+        "description_empty_order_1": "Tidak ada pesanan Flash Sale yang belum dibayar.",
+        "description_empty_order_2": "Pesanan yang sudah dibayar dan sedang diproses dapat dilihat di",
+        "order": "Pesanan",
+        "title": "Pesanan Menunggu Pembayaran"
+      },
+      "greeting": "Terima kasih atas pemesanan Xiaomi Redmi 6A",
+      "infoText1": "Ini adalah invoice bukti pemesanan Anda",
+      "infoText2": "Harap cetak invoice ini dan dibawa pada saat pengambilan produk",
+      "name": "Nama Konsumen",
+      "email": "Email Konsumen",
+      "address": "Alamat Konsumen",
+      "store": "Toko",
+      "storeAddress": "Alamat Toko",
+      "storePhone": "No. Telepon Toko",
+      "orderId": "Invoice ID",
+      "pickupStore": "Tempat Pengambilan",
+      "yourInformation": "Informasi Anda",
+      "month": "bulan",
+      "number": "No ",
+      "phone": "No Telp",
+      "paymentMethod": "Metode Pembayaran",
+      "product": "Produk",
+      "quantity": "Jumlah",
+      "price": "Harga",
+      "print": "Cetak",
+      "currencyRp": "Rp. ",
+      "cashback": "Cashback",
+      "total": "TOTAL",
+      "items": "Items",
+      "tenor": "{num}x bulan",
+      "fullPayment": "Pembayaran Penuh",
+      "installment": "CICILAN PER BULAN",
+      "customerCare" : "24/7 BliBli Customer Care",
+      "customerCarePhoneNumber" : "0804 1 871 871",
+      "customerCareEmail" : "customer.care@blibli.com",
+      "order" : "Order",
+      "preOrderGiftText" : "Hadiah Pre-Order",
+      "youllGetCashback": "*Cashback {value} dari {bank} akan Anda dapatkan dan akan memotong jumlah tagihan kartu kredit Anda paling lambat pada bulan ke-3",
+      "discountSGI": "Diskon SGI"
+    },
+    "thankYou": {
+      "thankYou": "Terima Kasih",
+      "successMessage": "Terima kasih sudah berbelanja",
+      "successMessageLong": "Terima kasih sudah berbelanja di Blibli.com. kami telah menerima pembayaran Anda menggunakan <b>{paymentMethod}</b>",
+      "failedMessage": "Pembayaran anda belum berhasil",
+      "orderExpiredTitle": "Transaksi Dibatalkan",
+      "orderExpiredMessage": "Pesanan Anda telah dibatalkan otomatis karena Anda belum melakukan pembayaran sampai batas waktu yang telah ditentukan. Silakan buat pesanan baru untuk melanjutkan pesanan.",
+      "errors":{
+        "ORDER_NOT_FOUND": "Pesanan tidak ditemukan"
+      },
+      "paymentError": "Sisa waktu Anda untuk menyelesaikan pembayaran adalah",
+      "expiredTimeError": "Transaksi Anda telah dibatalkan karena pembayaran belum diterima.",
+      "expiredPaymentDate": "Sisa waktu pembayaran anda adalah.",
+      "contactCS": "Untuk info lebih lanjut silakan hubungi Customer Care kami.",
+      "orderNumber": "No Pesanan",
+      "expireWarn": "Transaksi akan diproses apabila pembayaran dilakukan menggunakan <strong>{paymentMethod}</strong> sebelum tanggal",
+      "date": "tanggal",
+      "time": "pukul",
+      "gmtPlus7": "WIB",
+      "payment": "Pembayaran",
+      "paymentStepsTitle": "Petunjuk Pembayaran menggunakan",
+      "pickupMethod": "Cara Pengambilan",
+      "seeReceipt": "Lihat Receipt",
+      "changePayment": "Ganti Metode Pembayaran",
+      "repayText": "Lanjutkan Pembayaran",
+      "confirmationTitle": "Apakah anda yakin mengubah metode pembayaran?",
+      "confirmationMessage": "Untuk Transfer Bank Mandiri, pengubahan metode pembayaran belum dapat dilakukan",
+      "no": "TIDAK",
+      "sure": "YAKIN",
+      "errorTitle": "Terjadi kesalahan",
+      "orderNotFound": "Maaf, order Anda tidak ditemukan.",
+      "backToHome": "Kembali ke Beranda",
+      "customerInfo" : "Info Customer",
+      "pickUpPlace" : "Alamat Pengiriman",
+      "order" : "Pesanan",
+      "buyOthers": "Belanja Produk Lainnya",
+      "waiting": {
+        "title": "Mohon Tunggu...",
+        "description": "Saat ini kami sedang memproses pesanan Anda. <br/>Proses ini membutuhkan waktu paling lama 1 menit."
+      },
+      "orderReceived": "Pesanan Telah Diterima",
+      "companyCode": "Kode Perusahaan",
+      "va": "Virtual Account",
+      "paymentCode" : "Kode Pembayaran",
+      "copy": "Salin"
+    },
+    "checkout": {
+      "info": "Jika setelah Anda klik “Bayar Sekarang” melalui perangkat Android, muncul pop-up pilihan <strong> Buka dengan (Open with) </strong> “app Blibli.com” atau “Browser”, <strong> silakan pilih “Browser” </strong>",
+      "checkoutStepOne": "Langkah 1 : Lengkapi alamat pengiriman",
+      "checkoutStepTwo": "Langkah 2: Pilih Metode Pembayaran",
+      "shippingAddressNotes": "*Alamat ini akan digunakan untuk pengiriman produk Redmi 6A",
+      "pickupStore": {
+        "edit": "Ubah",
+        "emptyResult": "Mohon maaf kami tidak menemukan tempat pengambilan yang Anda cari, silakan ketik nama kota atau provinsi",
+        "errors": {
+          "cityEmpty": "*Nama kota wajib diisi",
+          "provinceEmpty": "*Nama provinsi wajib diisi"
+        },
+        "inputCityPlaceholder": "Ketik nama kota",
+        "inputProvincePlaceholder": "Ketik nama provinsi",
+        "inputStoreNamePlaceholder": "Ketik nama toko/mall disini",
+        "search": "Cari",
+        "searchCity": "Kota*",
+        "searchPickupStore": "Cari tempat pengambilan disini: ",
+        "searchProvince": "Provinsi*",
+        "searchStoreName": "Tahu nama toko atau mall yang ingin didatangi?"
+      },
+      "payment": {
+        "choosePaymentOption": "Pilih Opsi Pembayaran",
+        "fullPayment": "Bayar Penuh",
+        "option": "Pilih salah satu",
+        "KartuKreditDebit": "Kartu Kredit",
+        "InternetBanking": "Internet Banking",
+        "Transfer": "Transfer Bank",
+        "Indomaret": "Indomaret",
+        "AlfaGroup": "Alfa Group",
+        "PosPay": "Pos Pay",
+        "installment": " Cicilan",
+        "perMonth":" / bln",
+        "klikBcaUserId":"Klik BCA User ID :",
+        "youveGotCashback": "Anda sudah mendapatkan cashback {value} dari Bank {bank}",
+        "youllGetCashback": "Cashback {value} dari Bank {bank} akan Anda dapatkan dan akan memotong jumlah tagihan kartu kredit Anda paling lambat pada bulan ke-3"
+      },
+      "promo": {
+        "title": "PROMO BANK KHUSUS CICILAN*",
+        "sgi": "Xiaomi Gift Indonesia",
+        "sgiTitle": "Dapatkan ekstra diskon Rp 250.000 dengan voucher",
+        "sgiPlaceholder": "Ketik kode SGI di sini",
+        "sgiSuccess": "Selamat! Kode SGI anda berhasil masuk!",
+        "sgiFailed": "*Kode tidak cocok, harap dicoba kembali",
+        "sgiEmpty": "Silahkan masukkan Kode SGI"
+      },
+      "cart": {
+        "product": "Ringkasan Pesanan",
+        "initialPrice": "Harga Awal",
+        "currencyRp": "Rp. ",
+        "sgi": "Diskon SGI",
+        "cashback": "Cashback",
+        "total": "Total Pesanan",
+        "payNow": "BELI SEKARANG",
+        "checkoutReminder1" : "*Mohon cek kembali informasi dan pesananan anda telah sesuai dengan ",
+        "checkoutReminder2" : " yang berlaku",
+        "shippingPrice": "Biaya Pengiriman"
+      }
+    },
+    "repay": {
+      "title": "Kami Masih Menunggu Pembayaran Anda",
+      "finish": "Silakan selesaikan pembayaran sesuai metode pembayaran yang telah Anda pilih.",
+      "ignore": "Mohon abaikan pesan ini jika Anda telah melakukan pembayaran. Kami akan segera memproses pesanan Anda",
+      "message": "Mohon periksa kembali detail pembayaran Anda. Sisa waktu Anda untuk menyelesaikan pembayaran adalah {orderExpiryDuration}."
+    },
+    "orderExpired": {
+      "title": "Pesanan Anda telah dibatalkan Otomatis",
+      "message": "Pesanan Anda telah dibatalkan otomatis karena Anda belum melakukan pembayaran sampai batas waktu yang telah ditentukan. Silakan buat pesanan baru untuk melanjutkan pesanan.",
+      "button": "Kembali ke Blibli.com"
+    },
+    "countdown": {
+      "title": "Bigger things",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Second"
+    },
+    "vipAccess": {
+      "title": "A Special Welcome",
+      "message": "Sebagai tanda terima kasih karena Anda telah menjadi pelanggan setia, Anda terpilih untuk mendapat akses eksklusif produk.",
+      "placeholder": "Masukkan kode VIP personal Anda",
+      "warning": "*kode VIP hanya dapat digunakan satu kali. Mohon tidak menutup browser setelah menekan tombol Lanjutkan",
+      "button": "Lanjutkan"
+    },
+    "login": {
+      "placeholder": {
+        "username": "Email",
+        "password": "Kata Sandi"
+      },
+      "title": "Masuk ke Akun Anda",
+      "submit": "Masuk",
+      "have_no_acc": "Belum punya akun?",
+      "register_here": "Daftar Disini",
+      "error": {
+        "wrongEmailFormat": "format email salah",
+        "passwordNotEmpty": "password tidak boleh kosong",
+        "wrongPasswordOrEmail": "email atau password salah",
+        "systemError": "terjadi kesalahan pada sistem",
+        "rateLimiterError": "Wah, banyak sekali yang sedang ngantri masuk. Coba beberapa saat lagi, ya."
+      },
+      "facebook": "Masuk dengan Facebook",
+      "google": "Masuk dengan Google"
+    }
+  },
+  "paymentInstruction": {
+    "KlikBCA": "<h4>Petunjuk Pembayaran menggunakan KLIKBCA</h4><ol><li style=\"list-style:decimal\">Login di laman Klik BCA dengan menggunakan User ID KlikBCA: <strong>{klikBcaId}</strong></li><li style=\"list-style:decimal\">Pilih <strong>Pembayaran e-Commerce</strong> pada menu utama Klik BCA</li><li style=\"list-style:decimal\">Pilih <strong>Market Place</strong> pada pilihan Kategori</li><li style=\"list-style:decimal\">Pilih <strong>BLIBLI.COM</strong> pada pilihan Nama Perusahaan</li><li style=\"list-style:decimal\">Pilih nomor rekening BCA Anda, lalu klik <strong>Lanjutkan</strong></li><li style=\"list-style:decimal\">Beri tanda checklist pada transaksi yang ingin Anda bayar, lalu klik <strong>Lanjutkan</strong></li></ol>",
+    "ATMBCA": "<ol><li style=\"list-style:decimal\">Pilih <strong>TRANSAKSI LAINNYA</strong> pada layar utama</li></li>Pilih <strong>PEMBAYARAN</strong></li><li style=\"list-style:decimal\">Pilih <strong>LAYAR BERIKUTNYA</strong></li><li style=\"list-style:decimal\">Pilih <strong>LAIN-LAIN</strong></li><li style=\"list-style:decimal\">Masukkan kode perusahaan BLIBLI.com: <strong>710710</strong></li><li style=\"list-style:decimal\">Masukkan Nomor Order BLIBLI.COM: <strong>{orderId}</strong> (berlaku untuk satu kali transaksi)</li><li style=\"list-style:decimal\">Periksa kembali pembayaran Anda, pastikan telah sesuai dengan pesanan Anda</li><li style=\"list-style:decimal\">Transaksi selesai, Anda akan menerima struk pembayaran</li><li style=\"list-style:decimal\">Pemesanan anda segera di proses, silakan lakukan pengecekan email</li></ol>",
+    "VirtualAccountBcaOnline": "<p style=\"text-align: center;width: 75%;margin: 0 auto;\">Pembayaran <strong>Transfer BCA - Non ATM</strong> dapat dilakukan dengan menggunakan <strong>M-BCA dan KlikBCA</strong></p><h4>Petunjuk Pembayaran menggunakan M-BCA</h4><ol><li style=\"list-style:decimal\">Login pada aplikasi M-BCA, masukkan PIN M-BCA</li><li style=\"list-style:decimal\">Pilih \"m-Transfer\", pilih \"BCA Virtual Account\"</li><li style=\"list-style:decimal\">Klik \"Input no. Virtual Account\", lalu masukkan no BCA Virtual Account <strong style=\"color:#0095da\">{virtualAccountNumber}</strong></li><li style=\"list-style:decimal\">Klik \"OK\" & \"Send\"</li><li style=\"list-style:decimal\">Periksa data transaksi kemudian pilih \"OK\" kemudian masukkan PIN M-BCA Anda</li><li style=\"list-style:decimal\">Periksa kembali data transaksi Anda, kemudian klik \"OK\"</li></ol><h4>Petunjuk Pembayaran menggunakan KlikBCA</h4><ol><li style=\"list-style:decimal\">Login pada aplikasi KlikBCA, masukkan user ID & PIN</li><li style=\"list-style:decimal\">Pilih \"Transfer Dana\", kemudian pilih \"Transfer ke BCA Virtual Account\"</li><li style=\"list-style:decimal\">Masukkan no. BCA Virtual Account <strong style=\"color:#0095da\">{virtualAccountNumber}</strong> & klik \"Lanjutkan\"</li><li style=\"list-style:decimal\">Periksa data transaksi Anda &amp; klik \"Lanjut\".<li> Pastikan data yang dimasukkan sudah benar, dan input \"Respon KeyBCA\" lalu klik \"Kirim\"</li></ol><h4>Petunjuk Pembayaran menggunakan ATM BCA</h4><ol><li>Masukkan kartu ATM dan PIN BCA Anda</li><li>Pada menu utama, pilih menu \"Transaksi lainnya\"</li><li>Pilih menu \"Transfer\" dan kemudian pilih \"BCA Virtual Account\"</li><li>Masukkan no. BCA Virtual Account <strong style=\"color:#0095da\">{virtualAccountNumber}</strong> & klik \"Lanjutkan\".<li>Periksa kembali rincian pembayaran Anda, lalu pilih Ya</li></ol>",
+    "MandiriBillPayment": "<h4>Petunjuk Pembayaran menggunakan ATM Mandiri</h4><ol><li style=\"list-style:decimal\">Masukkan PIN ATM Anda</li><li style=\"list-style:decimal\">Pada menu utama, pilih menu <strong>Pembayaran</strong></li><li style=\"list-style:decimal\">Lalu pilih menu <strong>Multi Payment</strong> (Jikan di layar belum tersedia, tekan menu \"lainnya\" dan pilih \"Multi Payment\"</li><li style=\"list-style:decimal\">Masukkan nomor <strong>70012</strong> pada Kode Perusahaan kemudian tekan tombol <strong>Benar</strong></li><li style=\"list-style:decimal\">Masukkan kode pembayaran <strong style=\"color:#0095da\">{billKey}</strong></li><li style=\"list-style:decimal\">Periksa kembali data transaksi Anda dan selesaikan proses pembayaran</li></ol><h4>Petunjuk Pembayaran menggunakan Mandiri Internet Banking</h4><ol><li style=\"list-style:decimal\">Lakukan Login ke Internet Banking Mandiri Anda</li><li style=\"list-style:decimal\">Pada menu utama, pilih menu <strong>Bayar</strong></li><li style=\"list-style:decimal\">Lalu pilih menu <strong>Multi Payment</strong></li><li style=\"list-style:decimal\">Pilih akun anda di <strong>Dari Rekening</strong>, kemudian di <strong>Penyedia Jasa</strong> pilih <strong>Midtrans</strong></li><li style=\"list-style:decimal\">Masukkan kode pembayaran <strong style=\"color:#0095da\">{billKey}</strong>, dan klik <strong>Lanjutkan</strong></li><li style=\"list-style:decimal\">Periksa kembali <strong>Nama Perusahaan, No. Order, </strong>dan <strong>Jumlah Pembayaran</strong> Anda</li><li style=\"list-style:decimal\">Selesaikan pembayaran dengan menggunakan Token Mandiri</li></ol><h4>Petunjuk Pembayaran Menggunakan M-Banking Mandiri</h4><ol><li>Lakukan Login Mandiri Mobile Anda</li><li>Pada menu utama, pilih menu <strong>Bayar</strong></li><li>Lalu pilih menu <strong>Lainnya</strong></li><li>Pilih no rekening anda dan pilih penyedia jasa <strong>Midtrans</strong></li><li>Masukkan kode pembayaran <strong style=\"color:#0095da\">{billKey}</strong>, dan klik Lanjutkan</li><li>Periksa kembali data transaksi Anda dan selesaikan proses pembayaran</li></ol><h4>Petunjuk Pembayaran Menggunakan Mandiri Online</h4><ol><li>Lakukan Login Mandiri Online Anda</li><li>Pada menu utama, pilih menu <strong>Bayar</strong></li><li>Lalu pilih menu <strong>Multi Payment</strong></li><li>Pilih penyedia jasa <strong>Midtrans</strong></li><li>Masukkan kode pembayaran <strong style=\"color:#0095da\">{billKey}</strong>, dan klik Lanjutkan</li><li>Periksa kembali data transaksi Anda dan selesaikan proses pembayaran</li></ol>",
+    "AtmBersama": "<h4>Petunjuk Pembayaran menggunakan ATM Bersama</h4><ol><li style=\"list-style:decimal\">Kunjungi ATM terdekat yang memiliki logo ATMBersama</li><li style=\"list-style:decimal\">Pilih fitur <strong>transfer</strong></li><li style=\"list-style:decimal\">Masukan kode <strong>987</strong> dilanjutkan dengan nomor rekening tujuan <strong style=\"color:#0095da\">{virtualAccountNumber}</strong></li><li style=\"list-style:decimal\">Masukan nominal transaksi</li><li style=\"list-style:decimal\">Konfirmasi data pembelian anda</li><li style=\"list-style:decimal\">Klik next / oke</li><li style=\"list-style:decimal\">Transaksi selesai</li><li style=\"list-style:decimal\">Pemesanan anda segera di proses, silakan lakukan pengecekan email atau pesanan saya</li></ol>",
+    "VirtualAccountMandiri": "<ol><li style=\"list-style:decimal\">Pilih payment channel yang Anda inginkan (Internet Banking, SMS Banking, ATM).</li><li style=\"list-style:decimal\">Pilih fitur transfer.</li><li style=\"list-style:decimal\">Pilih fitur transfer antar bank.</li><li style=\"list-style:decimal\">Masukan kode Bank Mandiri (008) atau pilih Bank Mandiri.</li><li style=\"list-style:decimal\">Masukan nominal pembayaran dan <strong>{accountNumber}</strong> sebagai nomor rekening tujuan (nomor rekening ini unik, berbeda untuk setiap pelanggan dan hanya berlaku hanya untuk satu kali transaksi).</li><li style=\"list-style:decimal\">Konfirmasi nominal dan nomor rekening tujuan.</li><li style=\"list-style:decimal\">Selesaikan transfer Anda.</li></ol>",
+    "BRIVA":"<h4>Petunjuk Pembayaran menggunakan ATM BRI</h4><ol><li>Masukkan kartu ATM dan PIN BRI Anda</li><li>Pada menu utama, pilih menu <strong>Transaksi Lain &gt; Pembayaran &gt; Lainnya &gt; BRIVA</strong></li><li>Masukkan nomor BRIVA <strong style=\"color:#0095da\">{virtualAccountNumber} </strong></li><li>Di halaman konfirmasi, pastikan data transaksi sudah benar kemudian pilih Ya</li></ol> <h4>Petunjuk Pembayaran menggunakan M-Banking BRI</h4><ol><li>Akses BRI Mobile melalui handphone (Android / iOS)</li><li>Pilih Mobile Banking BRI</li><li>Pilih menu Info, lalu pilih BRIVA</li><li>Masukkan nomor BRIVA <strong style=\"color:#0095da\">{virtualAccountNumber}</strong></li><li>Masukkan jumlah pembayaran sesuai tagihan</li><li>Pastikan data transaksi sudah benar</li><li>Masukkan PIN Anda</li></ol><h4>Petunjuk Pembayaran menggunakan I-Banking BRI</h4><ol><li>Masuk ke <a style=\"color:#0095da; text-decoration: none\" href=\"https://ib.bri.co.id\"><strong>ib.bri.co.id</strong></a></li><li>Masukkan Username dan Password</li><li>Pilih menu Pembayaran, lalu pilih <strong>BRIVA</strong></li><li>Masukkan nomor BRIVA <strong style=\"color:#0095da\">{virtualAccountNumber}</strong></li><li>Pastikan data transaksi sudah benar</li><li>Masukkan password Anda</li><li>Masukkan <strong>mToken</strong> Anda</li></ol>",
+    "BNIVA":"<h4>Petunjuk Pembayaran menggunakan ATM BNI</h4><ol><li>Masukkan kartu ATM dan PIN BNI Anda</li><li>Pada menu utama, pilih menu <strong>Menu Lainnya &gt; Transfer &gt; Rekening Tabungan &gt; Ke Rekening BNI</strong></li><li>Masukkan nomor Virtual Account <strong style=\"color:#0095da\">{virtualAccountNumber} </strong></li><li>Masukkan jumlah pembayaran sesuai tagihan</li><li>Di halaman konfirmasi, pastikan data transaksi sudah benar kemudian pilih Ya</li></ol> <h4>Petunjuk Pembayaran menggunakan M-Banking BNI</h4><ol><li>Akses BNI Mobile melalui handphone (Android / iOS)</li><li>Masukkan User ID dan Password</li><li>Pilih menu <strong>Transfer</strong>, lalu pilih <strong>Antar Rekening BNI</strong>, pilih <strong>Input Rekening Baru</strong></li><li>Masukkan nomor Virtual Account <strong style=\"color:#0095da\">{virtualAccountNumber}</strong></li><li>Di halaman konfirmasi, pastikan data transaksi sudah benar</li><li>Masukkan Password Anda</li></ol><h4>Petunjuk Pembayaran menggunakan I-Banking BNI</h4><ol><li>Masuk ke <a style=\"color:#0095da; text-decoration: none\" href=\"https://ibank.bni.co.id\"><strong>ibank.bni.co.id</strong></a></li><li>Masukkan User ID dan Password</li><li>Pilih menu <strong>Transfer</strong>, lalu pilih <strong>Tambah Rekening Favorit</strong>. Jika menggunakan Desktop untuk menambah rekening pada menu <strong>Transaksi</strong> kemudian <strong>Atur Rekening Tujuan</strong> lalu <strong>Tambah Rekening Tujuan</strong></li><li>Masukkan nomor Virtual Account <strong style=\"color:#0095da\">{virtualAccountNumber} </strong></li><li>Masukkan Kode Otentikasi dan Nomor Rekening berhasil ditambahkan</li><li>Pilih menu <strong>Transfer</strong>, lalu pilih <strong>Transfer Antar Rekening BNI</strong>, pilih <strong>Rekening Tujuan</strong></li><li>Pilih <strong>Rekening Debit</strong></li><li>Masukkan jumlah pembayaran sesuai tagihan</li><li>Masukkan Kode Otentikasi</li></ol><h4>Petunjuk Pembayaran menggunakan Bank Lainnya</h4><p><span style=\"color:#ff0002\">*</span> Biaya transfer antar bank berlaku</p><ol><li>Pilih menu <strong>Transfer antar bank</strong> atau <strong>Transfer online antar bank</strong> atau <strong>Transfer realtime antarbank</strong></li><li>Masukkan kode bank <strong>BNI (009) </strong> atau pilih bank yang dituju yaitu <strong>BNI</strong></li><li>Masukan Nomor VA <strong style=\"color:#0095da\">{virtualAccountNumber}</strong> pada kolom rekening tujuan</li><li>Masukkan jumlah pembayaran</li><li>Konfirmasi rincian Anda akan tampil di layar, cek dan apabila sudah sesuai silahkan lanjutkan transaksi sampai dengan selesai.</li></ol>",
+    "DanamonVA":"<h4>Petunjuk Pembayaran menggunakan ATM Danamon</h4><ol><li>Masukkan kartu ATM dan PIN Danamon Anda</li><li>Pada menu utama, pilih menu <strong>Pembayaran &gt; Menu Lainnya &gt; Menu Virtual Account</strong></li><li>Masukkan nomor Virtual Account <strong style=\"color:#0095da\">{virtualAccountNumber} </strong></li><li> Di halaman konfirmasi, pastikan data transaksi sudah benar kemudian pilih Ya</li></ol> <h4>Petunjuk Pembayaran menggunakan M-Banking Danamon</h4><ol><li>Akses D-mobile melalui handphone (android / IOS)</li><li>Masukkan User ID dan Password</li><li>Pilih menu <strong>Pembayaran</strong>, lalu pilih <strong>Virtual Account</strong> kemudian tambah biller baru pembayaran.</li><li>Masukkan nomor Virtual Account <strong style=\"color:#0095da\">{virtualAccountNumber}</strong></li><li>Di halaman konfirmasi, pastikan data transaksi sudah benar</li><li>Masukkan Pin Anda</li></ol>",
+    "Indomaret": "<h4>Petunjuk Pembayaran di Indomaret</h4><ol><li style=\"list-style:decimal\">Silakan datangi toko Indomaret, Indomaret Point, Indomaret Fresh , Indomaret Plus, Ceriamart terdekat.</li><li style=\"list-style:decimal\">Lakukan pembayaran di kasir dengan menyerahkan kode pembayaran <strong style=\"color:#0095da\">{blibliOrderId}</strong>.</li><li>Anda akan menerima bukti pembayaran beserta email konfirmasi.</li><li>Silakan tunggu pesanan Anda tiba di alamat tujuan pengiriman.</li></ol>",
+    "AlfaGroup": "<h4>Petunjuk Pembayaran di Alfa Group</h4><ol><li style=\"list-style:decimal\">Silakan datangi toko Alfamart, Alfa Midi, Lawson, Dan+Dan terdekat.</li><li style=\"list-style:decimal\">Lakukan pembayaran di kasir dengan menyerahkan kode pembayaran <strong style=\"color:#0095da\">{blibliOrderId}</strong>.</li><li>Anda akan menerima bukti pembayaran beserta email konfirmasi.</li><li>Silakan tunggu pesanan Anda tiba di alamat tujuan pengiriman.</li></ol>"
+  },
+  "sessionEnded": {
+    "title": "Waktu Belanja Berakhir",
+    "description": "Anda telah melewati batas waktu checkout yang diberikan di sesi ini. Tenang, Anda dapat mencoba lagi dengan mengulangi proses belanja dari awal.",
+    "ok": "OK"
+  }
+}

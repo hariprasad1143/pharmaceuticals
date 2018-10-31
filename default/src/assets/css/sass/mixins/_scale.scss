@@ -1,0 +1,9 @@
+// Transform: scale X
+@mixin scaleX($degrees) {
+    -webkit-transform: 	scaleX($degrees);
+    	-ms-transform: 	scaleX($degrees);
+    	 -o-transform: 	scaleX($degrees);
+    		transform: 	scaleX($degrees);
+    	   -ms-filter: 	"FlipH";
+			   filter: 	FlipH;
+}
