@@ -1,4 +1,5 @@
 import { mapGetters, mapActions } from 'vuex'
+import { Carousel, Slide } from 'vue-carousel'
 import config from '@common/src/config'
 import ProductList from '@/components/flash-deals/ProductList.vue'
 import CheckoutFailed from '@/components/flash-deals/CheckoutFailed.vue'
@@ -47,7 +48,9 @@ export default {
   },
   components: {
     ProductList,
-    CheckoutFailed
+    CheckoutFailed,
+    Carousel,
+    Slide
   },
   methods: {
     ...mapActions(['getProductStocks', 'getProducts', 'setCartItem', 'isMobile']),

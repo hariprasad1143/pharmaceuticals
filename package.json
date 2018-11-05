@@ -37,9 +37,10 @@
     "fs-extra": "^2.1.2",
     "js-cookie": "^2.2.0",
     "npm-run-all": "^4.0.2",
+    "v-clipboard": "^1.0.4",
     "vue": "^2.5.9",
     "vue-analytics": "^4.0.0",
-    "vue-carousel": "^0.6.4",
+    "vue-carousel": "^0.6.15",
     "vue-gtm": "^1.0.0",
     "vue-i18n": "^7.0.2",
     "vue-recaptcha": "^0.4.0",
@@ -47,8 +48,7 @@
     "vue-router": "^2.2.0",
     "vue-script2": "^2.0.0",
     "vuex": "^2.3.1",
-    "webpack-runtime-public-path-plugin": "^1.0.0",
-    "v-clipboard": "^1.0.4"
+    "webpack-runtime-public-path-plugin": "^1.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

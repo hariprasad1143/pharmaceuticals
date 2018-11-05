@@ -4,7 +4,8 @@
       <div class="row">
         <div class="header__left">
           <a :href="logoPath" :class="{'show--desktop':isLoginPage}">
-            <img src="~assets/images/logo-blibli.png" class="header__brand" alt="Blibli.com"/>
+            <span class="first-letter">P</span>harmaceuticals
+            <!--<img src="~assets/images/logo-blibli.png" class="header__brand" alt="Blibli.com"/>-->
           </a>
           <router-link v-if="isLoginPage" to="/" class="show--mobile back">
             &larr; {{$t('header.back')}}
@@ -12,14 +13,15 @@
         </div>
         <div class="header__right" :class="{'waiting':isWaitingPage}">
           <div class="header__login" v-if="!isLoginPage" :class="{'wrap': user.username}" @mouseover="showUserDropdown" @mouseleave="hideUserDropdown">
-            <router-link class="login__btn" to="/flash-sale/login" v-if="!user.username" >{{$t('header.login')}}</router-link>
-            <span v-else class="username"><strong>{{user.username}}</strong><img src="~assets/images/icon-down.png" v-if="user.username && !isCheckoutPage && !isPaymentPage"/></span>
-            <span class="user-dropdown" v-if="user.username && !isCheckoutPage && !isPaymentPage" :class="{'show-user-dropdown': isDropdownActive}" @mouseleave="hideUserDropdown">
-              <span class="user-dropdown__history" @click="redirectOrderHistory"><img src="~assets/images/icon-order.svg" alt="">Pesanan</span>
-              <span class="user-dropdown__logout" @click="logoutUser"><img src="~assets/images/icon-logout.svg" alt="">Keluar</span>
-            </span>
+            <button class="header__login-btn">LOGIN</button>
+            <!--<router-link class="login__btn" to="/flash-sale/login" v-if="!user.username" >{{$t('header.login')}}</router-link>-->
+            <!--<span v-else class="username"><strong>{{user.username}}</strong><img src="~assets/images/icon-down.png" v-if="user.username && !isCheckoutPage && !isPaymentPage"/></span>-->
+            <!--<span class="user-dropdown" v-if="user.username && !isCheckoutPage && !isPaymentPage" :class="{'show-user-dropdown': isDropdownActive}" @mouseleave="hideUserDropdown">-->
+              <!--<span class="user-dropdown__history" @click="redirectOrderHistory"><img src="~assets/images/icon-order.svg" alt="">Pesanan</span>-->
+              <!--<span class="user-dropdown__logout" @click="logoutUser"><img src="~assets/images/icon-logout.svg" alt="">Keluar</span>-->
+            <!--</span>-->
           </div>
-          <a v-if="visibleBackToBlibli" href="https://www.blibli.com/home" class="header__right-backtoblibli"></a>
+          <!--<a v-if="visibleBackToBlibli" href="https://www.blibli.com/home" class="header__right-backtoblibli"></a>-->
         </div>
       </div>
     </header>
@@ -68,6 +70,13 @@
        white-space: nowrap
        margin-top: 15px
       &__login
+        &-btn
+          padding: 6px 26px
+          font-family: fantasy
+          font-weight: bold
+          color: #333333
+          background-color: cadetblue
+          border: none
         .username
           text-overflow: ellipsis
           white-space: nowrap
@@ -95,9 +104,19 @@
               right: 9em;
             @media screen and (max-width: 340px)
               right: 120px
-
       &__left
         float: left
+        a
+          text-decoration: none
+          color: #00B9AD
+          font-size: 25px
+          /*font-weight: bold*/
+          font-family: monospace
+          .first-letter
+            font-size: 50px
+            color: #0095DA
+            /*font-weight: bold*/
+            font-family: cursive
         &-brand
       &__right
         display: flex

@@ -2,8 +2,8 @@
     <footer class="footer">
       <div class="row">
           <span class="footer__left">{{$t('footer.copyright')}}
-            <a target="_blank" href="https://www.blibli.com/home">Blibli.com</a>
-            <span class="tnc"><a target="_blank" href="https://www.blibli.com/faq/tentang-blibli/syarat-ketentuan?appsWebview=true">{{ $t('footer.tnc') }}</a> | <a target="_blank" href="https://www.blibli.com/faq/tentang-blibli/kebijakan-privasi?appsWebview=true">{{ $t('footer.privacy') }}</a></span></span>
+            <a target="_blank" href="https://www.blibli.com/home">pharmaceuticals.com</a>
+           </span>
           <span class="footer__right">
             <span>{{ $t('footer.titleContact') }} <strong class="footer__contact">{{ $t('footer.contact') }}</strong></span>
           </span>
