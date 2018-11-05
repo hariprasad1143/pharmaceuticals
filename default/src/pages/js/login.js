@@ -1,7 +1,7 @@
 import formValidator from '@common/src/util/form-validator.js'
 import {mapGetters, mapActions} from 'vuex'
 import GoogleLogin from '@common/src/mixins/google-login-mixins'
-import {FBinitialize, loginFacebook} from 'blibli-login-helper'
+// import {FBinitialize, loginFacebook} from 'blibli-login-helper'
 import Cookie from 'js-cookie'
 import config from '@common/src/config'
 
@@ -25,7 +25,7 @@ export default {
     }
   },
   created: function () {
-    FBinitialize(this.staticConfig.facebookAppId)
+    // FBinitialize(this.staticConfig.facebookAppId)
     this.checkUser()
   },
   computed: {
@@ -78,7 +78,7 @@ export default {
       }
     },
     doLoginFb () {
-      loginFacebook(this.submitFacebookFn)
+      // loginFacebook(this.submitFacebookFn)
     },
     submitFacebookFn: function (response, accessToken) {
       let loginFbData = {
